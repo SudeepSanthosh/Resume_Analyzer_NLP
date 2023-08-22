@@ -1,0 +1,88 @@
+/* style.css */
+
+/* Body Background Color */
+body {
+  background-color: #f5f5f5;
+}
+
+/* Main Container */
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #333;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Button */
+button {
+  background-color: #00eefb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+button:hover {
+  background-color: #00eefb;
+}
+
+/* File Uploader */
+.pdf-file-uploader-wrapper {
+  margin-bottom: 20px;
+}
+
+.pdf-file-uploader-wrapper button {
+  background-color: #1976d2;
+}
+
+.pdf-file-uploader-wrapper button:hover {
+  background-color: #1565c0;
+}
+
+/* Textbox */
+.textbox-wrapper {
+  margin-bottom: 20px;
+}
+
+.textbox-wrapper textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #01eef2;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}
